@@ -169,6 +169,8 @@ var events = {
        *  commit,
        *  status,
        *  buildUrl
+       *  context
+       *  description
        *  owner
        *  repo
        * }

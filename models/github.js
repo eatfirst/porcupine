@@ -433,6 +433,8 @@ Github.prototype.handleCommitStatus = function ( data, callback ) {
     'POST',
     {
       state : data.status,
+      context : data.context,
+      description : data.description,
       target_url : data.buildUrl
     },
     processData
